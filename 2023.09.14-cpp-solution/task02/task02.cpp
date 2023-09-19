@@ -1,7 +1,5 @@
 #include <iostream>
 
-// Ðåøèòü áåç ìîäóëÿ (ôóíêöèè abs) ÿ íå ñìîã((
-
 int main(int argc, char* argv[]) {
 	int n = 0;
 	int a = 0;

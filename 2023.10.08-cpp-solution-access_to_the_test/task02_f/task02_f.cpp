@@ -10,10 +10,12 @@ int main(int argc, char* argv[])
 	{
 		for (int j = 0; j < n; ++j)
 		{
-			std::cout << 1 + i;
+			int distance = std::min(i, std::min(j, std::min(n - i - 1, n - j - 1)));
+			std::cout << distance + 1;
 		}
+
 		std::cout << std::endl;
 	}
 
-	return EXIT_SUCCESS;
+	return 0;
 }

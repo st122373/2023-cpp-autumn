@@ -7,12 +7,12 @@ int main(int argc, char* argv[])
 
 	for (int i = 0; i < n; ++i)
 	{
-		for (int j = 0; j < n; ++j)
-		{
-			std::cout << i + 1 << " ";
-		}
-		std::cout << std::endl;
+		std::cout << i;
 	}
+	for (int i = n; i >= 0; --i) {
+		std::cout << i;
+	}
+	std::cout << std::endl;
 
 	return 0;
 }

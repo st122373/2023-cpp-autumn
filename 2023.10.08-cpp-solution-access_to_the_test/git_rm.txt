@@ -1,0 +1,3 @@
+git rm *.jpg
+git commit --all --message "jpg files cleanup"
+git push

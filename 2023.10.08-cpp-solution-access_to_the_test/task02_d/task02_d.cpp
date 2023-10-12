@@ -5,8 +5,9 @@ int main(int argc, char* argv[]) {
     std::cin >> n;
 
     for (int i = 0; i < n; ++i) {
-        for (int j = 2*n - 1; j >= n; --j) {
-            std::cout << j - i;
+        for (int j = 2*n - 1; j >= n; --j) 
+        {
+            std::cout << j - i << " ";
         }
         std::cout << std::endl;
     }

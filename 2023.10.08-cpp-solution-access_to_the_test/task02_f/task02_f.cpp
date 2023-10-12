@@ -1,5 +1,5 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 
 int main(int argc, char* argv[])
 {
@@ -10,11 +10,12 @@ int main(int argc, char* argv[])
 	{
 		for (int j = 0; j < n; ++j)
 		{
-			std::cout << std::max(i, std::min(j, std::min(n - i - 1, n - j - 1))) + 1;
+			std::cout << (i + 1) % 2 * (j + 1) + i % 2 * (n - j) << " ";
 		}
-
 		std::cout << std::endl;
 	}
+	std::cout << std::endl;
 
 	return 0;
 }
+

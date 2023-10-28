@@ -1,0 +1,14 @@
+#ifndef f_TWICE
+
+#ifdef f_ONCE
+#define f_TWICE
+#endif
+
+#ifndef f_ONCE
+#define f_ONCE
+#define f_TWICE
+#endif
+
+void f()
+
+#endif
